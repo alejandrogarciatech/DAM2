@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "25118643200",
+    "firebase_url": "https://agg-uax-default-rtdb.firebaseio.com",
+    "project_id": "agg-uax",
+    "storage_bucket": "agg-uax.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25118643200:android:13090a69774ee381c174e5",
+        "android_client_info": {
+          "package_name": "com.example.presencial"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDpxL9nwQ1ID_udUr4LmPyhaGWDB8GLYM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
