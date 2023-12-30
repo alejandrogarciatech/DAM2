@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:context=".SecondActivity">
+
+        <RadioGroup
+            android:id="@+id/paises"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <RadioButton
+                android:id="@+id/belize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pais_belize"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/costa_rica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pais_costa_rica"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/cuba"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pais_cuba"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/el_salvador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pais_el_salvador"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/guatemala"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pais_guatemala"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/honduras"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pais_honduras"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/jamaica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pais_jamaica"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/mexico"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pais_mexico"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/nicaragua"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pais_nicaragua"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/panama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pais_panama"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/bandera"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/imagen_defecto"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/paises" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

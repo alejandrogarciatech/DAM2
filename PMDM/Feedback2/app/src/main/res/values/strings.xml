@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Feedback2</string>
+    <string name="pais_belize">Belize</string>
+    <string name="pais_costa_rica">Costa Rica</string>
+    <string name="pais_cuba">Cuba</string>
+    <string name="pais_el_salvador">El Salvador</string>
+    <string name="pais_guatemala">Guatemala</string>
+    <string name="pais_honduras">Honduras</string>
+    <string name="pais_jamaica">Jamaica</string>
+    <string name="pais_mexico">México</string>
+    <string name="pais_nicaragua">Nicaragua</string>
+    <string name="pais_panama">Panamá</string>
+    <string name="banderas">Banderas</string>
+    <string name="habitantes">HABITANTES</string>
+    <string name="pais">PAÍS</string>
+</resources>
+
+
+

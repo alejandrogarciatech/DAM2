@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/paisesListView"
+        android:layout_width="0dp"
+        android:layout_height="450dp"
+        android:layout_margin="20dp"
+        android:foregroundGravity="top"
+        app:layout_constraintBottom_toTopOf="@id/paisSeleccionadoTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/paisSeleccionadoTextView"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/grey"
+        app:layout_constraintBottom_toTopOf="@id/botonBanderas"
+        app:layout_constraintEnd_toEndOf="@+id/paisesListView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/paisesListView"
+        app:layout_constraintTop_toBottomOf="@+id/paisesListView" />
+
+    <Button
+        android:id="@+id/botonBanderas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/banderas"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="@color/orange"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/paisSeleccionadoTextView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
