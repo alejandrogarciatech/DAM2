@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#d6d7d7"
     tools:context=".MainActivity">
 
     <ImageButton
@@ -21,29 +22,20 @@
         android:layout_width="144dp"
         android:layout_height="153dp"
         android:src="@drawable/stop"
-        app:layout_constraintBottom_toTopOf="@+id/botonReproducir"
+        app:layout_constraintBottom_toTopOf="@+id/audioTextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/botonGrabar" />
-
-    <ImageButton
-        android:id="@+id/botonReproducir"
-        android:layout_width="144dp"
-        android:layout_height="153dp"
-        android:layout_marginBottom="100dp"
-        android:src="@drawable/play"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/audioTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ULTIMO AUDIO"
+        android:layout_marginBottom="88dp"
         android:gravity="center"
+        android:text="ÚLTIMO AUDIO"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/botonReproducir" />
+        tools:layout_editor_absoluteX="0dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
