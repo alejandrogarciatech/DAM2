@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Feedback4</string>
+    <string name="introduzca_su_nombre_por_favor">Introduzca su nombre, por favor</string>
+    <string name="introduzca_su_edad_por_favor">Introduzca su edad, por favor</string>
+    <string name="introduzca_su_telefono_por_favor">Introduzca su telefono, por favor</string>
+    <string name="nombre_del_archivo">Nombre del archivo</string>
+    <string name="guardar">Guardar</string>
+    <string name="consultar">Consultar</string>
 </resources>
